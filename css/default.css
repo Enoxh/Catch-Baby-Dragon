@@ -1,0 +1,52 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+}
+#baseImg {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+#player {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.maptable {
+    width: 440px;
+    height: 440px;
+    text-align: left;
+    background: white url(../img/layer_01.png) repeat;
+    border-collapse: collapse;
+    border: 10px solid gray;
+    overflow-y: hidden;
+}
+.maptable td,
+.myTableBg th {
+    /*  border:2px solid black;*/
+    width: 100px;
+    height: 100px;
+}
+.maptable tr,
+td,
+th {
+    padding-top: 5px;
+    background-color: transparent;
+    border: 0px;
+}
+.points {
+    top: 0px;
+    left: 15px;
+}
+.time {
+    top: 0px;
+    margin-left: 100px;
+}
+.panel {
+    width: 700px;
+    padding-right: 45px;
+    overflow-x: hidden;
+}
+.title {
+    font-size: 36px;
+}
